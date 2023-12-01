@@ -22,3 +22,7 @@ How to host
 5. edit the config of mandata, Edit the line `apikey: apiman-[somethinghere` for the api, Leave it if you want it to be disabled, also under it is the config
 
 ```nano main.katcode-port```
+
+6. Do `katcode run main.katcode-port` command to run the file
+
+and voilla 6 steps to run a localhost database
