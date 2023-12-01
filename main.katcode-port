@@ -1,0 +1,32 @@
+# Remove this to stop running as root
+    pure.katcode.local.config
+    @rootalways -git http://rootgo-git.carrd.co
+
+# You're running Purekatcode 28.04 LTS
+# MANDATA [Your personal local database] [1.0-EVA-BETA]
+
+# import everything
+import --everything -inrepo -at@mandata.lnc
+
+# Repo
+import --repo http://github.com/windows11-on-web/mandata-enterprise.katcode --name ManData --replace-default-repos
+
+# Dear user
+# You must put a folder named "database-local" in the root of the code, 
+# Since github doesnt upload it for some resson so is the local database not working
+
+# Import the database api
+apikey: apiman-[putrandom stuff here, Use tool here https://generate-random.org/api-key-generator?count=1&length=64&type=mixed-numbers&prefix=]
+
+# Config
+
+    kvm-allow-database="0"
+        # KVM-allow-database makes your kvmkc vms to this database [but is only for cloud]
+    cloud-use="1"
+        # Cloud use makes your database for cloud use, but this needs an domain or an public ip to use
+    diskused="0"
+        # disk used makes the database use the following disk, Bydefault it is 0 which is the root of the code
+    disk-space="64G"
+        # disk-space makes a disk limit, Do not set too high or when you add too much stuff it will kill the disk
+    do-not-root="0"
+        # this makes the database to stop running as root, and just if you wanna stop it from running as root, Remove the first purekatcode stuff
