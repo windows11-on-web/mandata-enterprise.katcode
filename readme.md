@@ -3,8 +3,9 @@
 
 How to host
 
-1: Get the repo Using this command
+1. Get the repo Using this command
+
 ```git clone git@github.com:windows11-on-web/mandata-enterprise.katcode.git```
 
-2: Get purekatcode, Use this command
+2. Get purekatcode, Use this command
 ```git clone git@github.com:windows11-on-web/katcode24.30.git```
