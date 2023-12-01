@@ -1,0 +1,30 @@
+# You're running Purekatcode 28.40 LTS
+
+# Run those commands to get latest updates
+katcode git xfceruntime --repo http://xfce-runtime_katcode-git.carrd.co
+git clone https://github.com/purekatcode/katcode-port.git
+
+# You do not need the allow list packages since it is done auto when you start the code, So resulting in no allow list needed.
+
+# What can you config today
+- VM Module [Run VMs inside katcode using this virtual module]="on"
+- Katcode Stable Mode [Makes your code auto repair]="on" --beta 
+- RNX Layout [More useful then the regedit layout]="on" --beta
+- NXC Layout [Useful for nerd regedit users]="off" --beta
+- RXC Layout [Better RNX Layout]="off" --beta
+
+# Point to run files [Your project files in Open source terms]
+# filepoint="main.katcode"
+
+# File configs
+- Config file Format [edit the format of your config file]="katos"
+- File format [Edit the format of your katcode files]="katcode"
+
+# Repo Config
+
+Repo3="http://github.com/windows11-on-web/mandata-enterprise.katcode" --name ManData --enabled
+
+# Replace enabled with disabled to disable and enable repos 
+
+# Import Virtual modules [Put a module from the repo to here and, this module will be in every file Even without import cuz thats the power of virtual modules]
+- mandata="enabled" --virtualmodule
