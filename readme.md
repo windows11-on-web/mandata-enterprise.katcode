@@ -7,5 +7,6 @@ How to host
 
 ```git clone git@github.com:windows11-on-web/mandata-enterprise.katcode.git```
 
-2. Get purekatcode, Use this command
+2. Get katcode, Use this command
+
 ```git clone git@github.com:windows11-on-web/katcode24.30.git```
