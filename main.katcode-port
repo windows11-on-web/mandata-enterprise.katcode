@@ -6,7 +6,7 @@
 # MANDATA [Your personal local database] [1.0-EVA-BETA]
 
 # import everything
-import --everything -inrepo -at@mandata.lnc
+import --everything -inrepo -at@githubrepo
 
 # Repo
 import --repo http://github.com/windows11-on-web/mandata-enterprise.katcode --name ManData --replace-default-repos
